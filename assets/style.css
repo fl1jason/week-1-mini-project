@@ -15,7 +15,7 @@ header {
     background-color: #000;
     color: #fff;
     padding: 10px;
-    background-image: url("/assets/images/coming-soon.jpeg");
+    background-image: url("./assets/images/coming-soon.jpeg");
     height: 320px;
     width: 600px;
 }
