@@ -1,0 +1,58 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    background-image: url("/assets/images/coming-soon.jpeg");
+    height: 320px;
+    width: 600px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.402);
+    color: rgb(254, 250, 250);
+    padding: 10px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.0;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+input[type="email"] {
+    min-width: 300px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+}
