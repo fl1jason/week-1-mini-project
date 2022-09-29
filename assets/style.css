@@ -56,3 +56,8 @@ input[type="email"] {
     border-radius: 10px;
     text-decoration: none;
 }
+
+.header-image {
+    height: 200px;
+    width: 200px;
+}
